@@ -1,8 +1,20 @@
 aid: easyhealth
 name: Easyhealth
-description: Easyhealth is a company surfaced as a portfolio company of anthemis, qed-investors and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  EasyHealth is a Los Angeles-based value-based care company that partners with
+  health plans, provider groups, and risk-bearing entities to deliver proactive,
+  in-home and virtual clinical care to Medicare, Medicaid, and Health Exchange
+  members across 40+ states. Its Preventative Care Platform combines a hybrid
+  visit model (in-home medical assistants paired with virtual nurse
+  practitioners), Health Information Exchange integration, and real-time data
+  dashboards for health plans to close HEDIS/care gaps, complete annual wellness
+  visits, run preventive screenings, and manage chronic conditions such as
+  cardiovascular, respiratory, diabetes, kidney, and behavioral health. EasyHealth
+  emphasizes reaching underserved and hard-to-reach populations, claiming roughly
+  40% member engagement versus traditional sub-10% rates. The company is backed by
+  Anthemis and QED Investors and is profiled here as an API Evangelist network
+  company. EasyHealth publishes no public API, developer portal, or SDKs at this
+  time; this profile captures its public identity and web properties.
 url: https://raw.githubusercontent.com/api-evangelist/easyhealth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,11 +23,32 @@ x-backed-by:
 - qed-investors
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/6514a9a971576f72d272d996/6514ad5aa20ba62ec4a8bf8b_61279c03c148106e7fe5f4d9_social%20sharing%20card.jpg
 tags:
 - Company
+- Healthcare
+- Medicare
+- Value-Based Care
+- Preventive Care
+- Health Insurance
+- Care Coordination
+- In-Home Care
+- Telehealth
+- HEDIS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +56,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/easyhealth-domain-security.yml
 - type: Website
-  url: https://www.joineasyhealth.com/
+  url: https://www.easyhealth.com/
+- type: About
+  url: https://www.easyhealth.com/about
+- type: Support
+  url: https://www.easyhealth.com/contact-2-0
+- type: TermsOfService
+  url: https://www.easyhealth.com/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.easyhealth.com/privacy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
